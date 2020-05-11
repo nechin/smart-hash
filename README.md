@@ -31,7 +31,7 @@ PHP 7.1.0
 require 'vendor/autoload.php';
 
 use Nechin\SmartHash\Hash;
-Hash::generate('32', 'md5');
+SmartHash::generate('32', 'md5');
 ```
 
 ## Copyright and license
