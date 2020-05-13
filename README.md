@@ -2,7 +2,6 @@
 [![Source Code][badge-source]][source]
 [![Latest Version][badge-release]][release]
 [![Software License][badge-license]][license]
-[![Build Status][badge-build]][build]
 [![Total Downloads][badge-downloads]][downloads]
 
 ## About
@@ -27,7 +26,9 @@ PHP 5.4.0
 ## Examples
 
 If no length is specified, the _ripemd128_ algorithm is used, which will generate a string of 32 hexadecimal digits.
+
 The following hash lengths are available: 8, 16, 32, 40, 48, 56, 64, 80, 96, 128. For each length is used its own optimal algorithm.
+
 It is possible to specify the desired algorithm as the third parameter. Then the second parameter should be false.
 
 ```php
@@ -41,7 +42,7 @@ SmartHash::hash('Hello Word', false, 'sha384'); // 1e40aa579d1c826d3c48370084698
 
 ## Copyright and license
 
-The nechin/smart-hash library is copyright © [Alexander Vitkalov](http://vitkalov.ru/) and licensed for use under the MIT License (MIT). Please see [LICENSE][] for more information.
+The nechin/smart-hash library is copyright © [Alexander Vitkalov](http://vitkalov.ru/) and licensed for use under the MIT License (MIT). Please see [LICENSE][license] for more information.
 
 [packagist]: https://packagist.org/packages/nechin/smart-hash
 [composer]: http://getcomposer.org/
@@ -49,12 +50,9 @@ The nechin/smart-hash library is copyright © [Alexander Vitkalov](http://vitkal
 [badge-source]: https://img.shields.io/badge/source-nechin/smart-hash-blue.svg?style=flat-square
 [badge-release]: https://img.shields.io/packagist/v/nechin/smart-hash.svg?style=flat-square
 [badge-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[badge-build]: https://img.shields.io/travis/nechin/smart-hash/master.svg?style=flat-square
-[badge-coverage]: https://img.shields.io/coveralls/nechin/smart-hash/master.svg?style=flat-square
 [badge-downloads]: https://img.shields.io/packagist/dt/nechin/smart-hash.svg?style=flat-square
 
 [source]: https://github.com/nechin/smart-hash
 [release]: https://packagist.org/packages/nechin/smart-hash
 [license]: https://github.com/nechin/smart-hash/blob/master/LICENSE
-[build]: https://travis-ci.org/nechin/smart-hash
 [downloads]: https://packagist.org/packages/nechin/smart-hash
