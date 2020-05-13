@@ -16,7 +16,7 @@
       "role": "Developer"
     }
   ],
-  "homepage": "https://github.com/nechin/smart-hash",
+  "homepage": "https://nechin.github.io/smart-hash/",
   "license": "MIT",
   "require": {
     "php": ">=5.4"
