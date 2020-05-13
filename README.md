@@ -47,10 +47,10 @@ The nechin/smart-hash library is copyright © [Alexander Vitkalov](http://vitkal
 [packagist]: https://packagist.org/packages/nechin/smart-hash
 [composer]: http://getcomposer.org/
 
-[badge-source]: https://img.shields.io/badge/source-nechin/smart-hash-blue.svg?style=flat-square
-[badge-release]: https://img.shields.io/packagist/v/nechin/smart-hash.svg?style=flat-square
+[badge-source]: https://img.shields.io/badge/source-nechin/smart--hash-blue?style=flat-square
+[badge-release]: https://img.shields.io/github/v/release/nechin/smart-hash?style=flat-square
 [badge-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[badge-downloads]: https://img.shields.io/packagist/dt/nechin/smart-hash.svg?style=flat-square
+[badge-downloads]: https://img.shields.io/packagist/dt/nechin/smart-hash?style=flat-square
 
 [source]: https://github.com/nechin/smart-hash
 [release]: https://packagist.org/packages/nechin/smart-hash
