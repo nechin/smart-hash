@@ -3,11 +3,11 @@
 namespace Nechin\SmartHash;
 
 /**
- * Class Algorithms
+ * Class Algorithm
  *
  * @package Nechin\SmartHash
  */
-class Algorithms
+class Algorithm
 {
     /**
      * Supported algorithms by length
@@ -15,7 +15,7 @@ class Algorithms
      */
     public function getAvailable()
     {
-        return [
+        return array(
             8 => 'crc32b',
             16 => 'fnv1a64',
             32 => 'ripemd128',
@@ -26,7 +26,7 @@ class Algorithms
             80 => 'ripemd320',
             96 => 'sha384',
             128 => 'sha512'
-        ];
+        );
     }
 
     /**
