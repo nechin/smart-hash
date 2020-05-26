@@ -35,9 +35,9 @@ It is possible to specify the desired algorithm as the third parameter. Then the
 <?php
 use Nechin\SmartHash\SmartHash;
 
-SmartHash::hash('Hello Word');  // 39a70319440d506d758d03fee8b94a56
-SmartHash::hash('Hello Word', 64);  // 4bc4e29b1a44673affb69be5f72376a17d95e7976d117fd7b8a7c514420fb2a8
-SmartHash::hash('Hello Word', false, 'sha384'); // 1e40aa579d1c826d3c48370084698e9f0da212aa615791ed9f851673de7a959124627445ef061bd93edd5dd94ece1b54
+SmartHash::hash('Hello World');  // 2d02b563447f954eafdc4824a190ddcc
+SmartHash::hash('Hello World', 64);  // 32b7b7d2408f9389d77cc00aff3c1529504508e86cdbc78a95c469fc68f80543
+SmartHash::hash('Hello World', false, 'sha384'); // 99514329186b2f6ae4a1329e7ee6c610a729636335174ac6b740f9028396fcc803d0e93863a7c3d90f86beee782f4f3f
 ```
 
 ## Copyright and license
