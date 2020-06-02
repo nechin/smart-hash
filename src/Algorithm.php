@@ -19,7 +19,7 @@ class Algorithm
             8 => 'crc32b',
             16 => 'fnv1a64',
             32 => 'ripemd128',
-            40 => 'sha1',
+            40 => 'tiger160,4',
             48 => 'tiger192,4',
             56 => 'haval224,5',
             64 => 'ripemd256',
